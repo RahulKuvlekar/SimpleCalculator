@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="CSS/Style.css" />
+    
+  </head>
+  <body>
+    <header class="header">
+      <h1>Calculator</h1>
+    </header>
+    <section class="content">
+      <div class="calculator">
+        <input id="inputNumber"  class="inputNumber" type="number" />
+        <div class="btn-group">
+          <button id="btn" class="button btn-add">+</button>
+          <button class="button btn-sub">-</button>
+          <button class="button btn-multiply">*</button>
+          <button class="button btn-divide">/</button>
+          <button class="button btn-reset">Reset</button>
+        </div>
+      </div>
+      <div class="result">
+        <h1 id="currentCalculation"></h1>
+        <h1>RESULT :: <span id="currentResult"></span></h1>
+      </div>
+    </section>
+
+    <script src="Script/app.js"></script>
+  </body>
+</html>
